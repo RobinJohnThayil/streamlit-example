@@ -12,7 +12,7 @@ import pandas as pd
 # input = st.text_input("Enter your tweet url")
 
 
-res = theTweet("https://twitter.com/SingAjai/status/1532044961604313088")
+res = theTweet(https://twitter.com/SingAjai/status/1532044961604313088)
 st.write(res)
 components.html(res,height= 700)
     
