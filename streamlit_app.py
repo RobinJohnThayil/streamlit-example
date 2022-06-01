@@ -1,6 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import requests
+import pandas as pd
 
 def theTweet(tweet_url):
     api = "https://publish.twitter.com/oembed?url={}".format(tweet_url)
@@ -18,7 +19,8 @@ d = {
     "one": pd.Series([1.0, 2.0, 3.0], index=["a", "b", "c"]),
     "two": pd.Series([1.0, 2.0, 3.0, 4.0], index=["a", "b", "c", "d"]),
 }
-    
-st.table(data=d)
+ 
+e = pd.DataFrame(d)
+st.table(data=e)
 
 
