@@ -24,7 +24,7 @@ tweet_list = ["https://twitter.com/SingAjai/status/1532044961604313088",
 
 for each in tweet_list:
     res = theTweet(each)
-    st.write(res)
+    st.write(res, unsafe_allow_html=True)
     # components.html(res,height= 2000)
     
 d = {
