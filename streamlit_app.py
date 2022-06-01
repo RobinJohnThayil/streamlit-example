@@ -30,13 +30,3 @@ else:
     st.write('Goodbye')
 
     
-https://twitter.com/SingAjai/status/1532044961604313088
-https://twitter.com/jains_mahindra/status/1532044361906544640
-https://twitter.com/SingAjai/status/1532044216649797632
-https://twitter.com/NileshT72253655/status/1532039503115735040
-https://twitter.com/tskathirvel1/status/1532037847040987137
-https://twitter.com/iamasrikal/status/1532034759139807232
-https://twitter.com/harijames007/status/1532033644465823745
-https://twitter.com/GorakalaBhaskar/status/1532033507869921280
-https://twitter.com/hjnikki/status/1532032637392416769
-https://twitter.com/HUNTDAILYNEWS1/status/1532019548181905409
