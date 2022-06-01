@@ -25,7 +25,7 @@ tweet_list = ["https://twitter.com/SingAjai/status/1532044961604313088",
 for each in tweet_list:
     res = theTweet(each)
     st.write(res)
-    components.html(res,height= 2000)
+    # components.html(res,height= 2000)
     
 d = {
     "one": pd.Series([1.0, 2.0, 3.0], index=["a", "b", "c"]),
