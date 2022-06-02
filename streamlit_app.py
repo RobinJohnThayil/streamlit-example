@@ -32,12 +32,16 @@ def display_tweets():
 d = {
     "Topic": pd.Series([1]),
     "High Fequency Words": pd.Series(["new, know, time"]),
+    "Summary": pd.Series([1]),
+    "High Fequency Words": pd.Series(["new, know, time"]),
+    "Tweet growth over 1 Week": pd.Series(["9.09%"]),
+    "Tweet growth rate over 1 Month": pd.Series(["-8.33%"]),
 }
  
 e = pd.DataFrame(d)
 st.table(data=e)
         
-if st.button('Show me select tweets'):
+if st.button('Show me select tweets for Topic 1'):
     display_tweets()
 else:
     st.write('Press ths button to see select tweets for Topic 1')
