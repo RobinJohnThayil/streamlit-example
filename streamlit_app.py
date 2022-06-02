@@ -25,8 +25,8 @@ def display_tweets():
 
     for each in tweet_list:
         res = theTweet(each)
-        st.write(res, unsafe_allow_html=True)
-        # components.html(res,height= 2000)
+        #st.write(res, unsafe_allow_html=True)
+        components.html(res,height= 2000)
 
 
 d = {
