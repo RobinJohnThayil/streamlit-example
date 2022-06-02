@@ -40,7 +40,7 @@ st.table(data=e)
 if st.button('Show me select tweets'):
     display_tweets()
 else:
-    st.write('Press ths button to see select tweets')
+    st.write('Press ths button to see select tweets for Topic 1')
 
 
 # class Tweet(object):
