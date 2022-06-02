@@ -29,6 +29,14 @@ def display_tweets():
         # components.html(res,height= 2000)
 
 
+d = {
+    "one": pd.Series([1.0, 2.0, 3.0], index=["a", "b", "c"]),
+    "two": pd.Series([1.0, 2.0, 3.0, 4.0], index=["a", "b", "c", "d"]),
+}
+ 
+e = pd.DataFrame(d)
+st.table(data=e)
+        
 if st.button('Show me select tweets'):
     display_tweets()
 else:
