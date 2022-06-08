@@ -10,3 +10,4 @@ gensim
 spacy
 requests
 pillow
+tensorflow
