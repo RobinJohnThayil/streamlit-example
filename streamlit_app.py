@@ -43,7 +43,7 @@ st.write(df['tweet'].head(5))
 
 st.write('\nInsights Table')
 
-df1 = pd.read_csv("D:/table_summary.csv") 
+df1 = pd.read_csv("table_summary.csv") 
 df1.drop("Unnamed: 0", axis=1, inplace=True)
 st.write(df1)
 
