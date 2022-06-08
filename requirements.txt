@@ -7,8 +7,9 @@ matplotlib
 nltk
 textblob
 gensim
-spacy 3.0
+spacy==3.0
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
 requests
 pillow
 tensorflow
+click==7.0
