@@ -1,9 +1,9 @@
-%pip install tensorflow
+
 import io
 import pandas as pd
 import numpy as np
 from tqdm.auto import tqdm
-import tensorflow as tf
+#import tensorflow as tf
 from transformers import BertTokenizer
 import pandas as pd
 import streamlit as st
@@ -13,7 +13,7 @@ import numpy as np
 from itertools import chain
 import matplotlib.pyplot as plt
 import numpy as np
-import tensorflow as tf
+#import tensorflow as tf
 from nltk.corpus import stopwords
 from textblob import TextBlob
 import gensim
