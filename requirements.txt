@@ -9,4 +9,4 @@ textblob
 gensim
 spacy
 requests
-PIL
+pillow
