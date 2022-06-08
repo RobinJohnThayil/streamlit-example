@@ -265,11 +265,11 @@ elif option==3:
         
         
 
-image_frequency = Image.open('D:/tweet_frequency.png')
+#image_frequency = Image.open('D:/tweet_frequency.png')
 
 st.write('\nTweets Frequency Visualization ')
 
-st.image(image_frequency, caption='Tweets Frequency timeline (Huggies)')
+#st.image(image_frequency, caption='Tweets Frequency timeline (Huggies)')
 
 
             
