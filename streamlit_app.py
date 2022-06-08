@@ -17,7 +17,7 @@ import numpy as np
 from nltk.corpus import stopwords
 from textblob import TextBlob
 import gensim
-#import re
+import re
 from gensim import corpora
 import spacy
 import nltk
