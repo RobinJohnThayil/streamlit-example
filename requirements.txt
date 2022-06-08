@@ -7,7 +7,6 @@ matplotlib
 nltk
 textblob
 gensim
-re
 spacy
 requests
 PIL
