@@ -1,4 +1,4 @@
-!pip install tensorflow
+%pip install tensorflow
 import io
 import pandas as pd
 import numpy as np
