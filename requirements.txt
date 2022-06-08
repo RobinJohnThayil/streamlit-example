@@ -10,3 +10,4 @@ gensim
 re
 spacy
 requests
+PIL
