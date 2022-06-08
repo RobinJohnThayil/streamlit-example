@@ -3,7 +3,6 @@ pandas
 streamlit
 transformers 
 plotly
-PIL
 matplotlib
 nltk
 textblob
