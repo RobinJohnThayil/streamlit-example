@@ -1,3 +1,13 @@
 altair
 pandas
 streamlit
+transformers 
+plotly
+PIL
+matplotlib
+nltk
+textblob
+gensim
+re
+spacy
+requests
