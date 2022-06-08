@@ -132,13 +132,13 @@ lda_model= gensim.models.ldamodel.LdaModel(corpus=corpus,
                                           passes=10,
                                           iterations=100,
                                           alpha="auto")
-new_model_lda=gensim.models.ldamodel.LdaModel.load("D:/model_lda/test_model.model")
+#new_model_lda=gensim.models.ldamodel.LdaModel.load("D:/model_lda/test_model.model")
 
 
 
 
 
-lda_corpus=new_model_lda[corpus]
+lda_corpus=lda_model[corpus]
 from itertools import chain
 
 scores = list(chain(*[[score for topic_id,score in topic] \
