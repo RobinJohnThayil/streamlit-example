@@ -38,12 +38,15 @@ from tensorflow.keras.models import load_model
 st.set_page_config(page_title='Social Listening')
 st.markdown("<h1 style='text-align: center; color: white; font-size: 30px; background-color: #1016A2;'>Social Listening</h1>", unsafe_allow_html=True)
 
-df = pd.read_csv("Tweets_extracted (1).csv") #path folder of the data file
+#df = pd.read_csv("Tweets_extracted (1).csv") #path folder of the data file
+df1 = extract_tweets
+
 st.write(df['tweet'].head(5))
 
 st.write('\nInsights Table')
 
 df1 = pd.read_csv("table_summary.csv") 
+
 df1.drop("Unnamed: 0", axis=1, inplace=True)
 st.write(df1)
 
